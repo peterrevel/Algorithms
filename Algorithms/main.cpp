@@ -2,17 +2,22 @@
 //  main.cpp
 //  Algorithms
 //
-//  Created by Hawthorne Labs on 6/24/14.
+//  Created by Peter Reveles on 6/24/14.
 //  Copyright (c) 2014 Peter Reveles. All rights reserved.
 //
 
 #include <iostream>
+#include "SkylineSolver.h"
 
-int main(int argc, const char * argv[])
+using namespace std;
+
+int main()
 {
 
     // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << "Hello, this is my repo which I'm using to practice solving algorithms." << endl;
+    string test = returnTestString();
+    cout << test << endl;
     return 0;
 }
 
