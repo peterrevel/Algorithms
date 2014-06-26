@@ -10,6 +10,7 @@
 		52816473195A8F2800FE80C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52816472195A8F2800FE80C8 /* main.cpp */; };
 		52816475195A8F2800FE80C8 /* Algorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52816474195A8F2800FE80C8 /* Algorithms.1 */; };
 		5281647D195A8F7400FE80C8 /* SkylineSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5281647B195A8F7400FE80C8 /* SkylineSolver.cpp */; };
+		52A38411195BAEA500A37CFE /* SortAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52A3840F195BAEA500A37CFE /* SortAlgorithms.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		52816474195A8F2800FE80C8 /* Algorithms.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Algorithms.1; sourceTree = "<group>"; };
 		5281647B195A8F7400FE80C8 /* SkylineSolver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SkylineSolver.cpp; sourceTree = "<group>"; };
 		5281647C195A8F7400FE80C8 /* SkylineSolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkylineSolver.h; sourceTree = "<group>"; };
+		52A3840F195BAEA500A37CFE /* SortAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortAlgorithms.cpp; sourceTree = "<group>"; };
+		52A38410195BAEA500A37CFE /* SortAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortAlgorithms.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 			children = (
 				52816474195A8F2800FE80C8 /* Algorithms.1 */,
 				52816472195A8F2800FE80C8 /* main.cpp */,
+				52A38410195BAEA500A37CFE /* SortAlgorithms.h */,
+				52A3840F195BAEA500A37CFE /* SortAlgorithms.cpp */,
 				5281647C195A8F7400FE80C8 /* SkylineSolver.h */,
 				5281647B195A8F7400FE80C8 /* SkylineSolver.cpp */,
 			);
@@ -124,6 +129,7 @@
 			files = (
 				5281647D195A8F7400FE80C8 /* SkylineSolver.cpp in Sources */,
 				52816473195A8F2800FE80C8 /* main.cpp in Sources */,
+				52A38411195BAEA500A37CFE /* SortAlgorithms.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +239,7 @@
 				5281647A195A8F2800FE80C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
