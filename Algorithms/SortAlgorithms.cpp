@@ -40,18 +40,9 @@ void PRMergeSort(vector<int> & vec){
 }
 
 void quickSort_swap(vector<int> & vec, int target, int pivot, bool left){
-    int offset;
-    if (left) {
-        offset = -1;
-    } else {
-        offset = 1;
-    }
-    if (pivot - target) {
-        return;
-    }
+    int offset = left ? -1 : 1;
     if ((pivot - target) == 1 || (pivot - target) == -1) {
         vectorSwap(vec, target, pivot);
-        return;
     } else {
         vectorSwap(vec, target, pivot + offset);
         target = pivot + offset; //  because of swap
@@ -60,9 +51,7 @@ void quickSort_swap(vector<int> & vec, int target, int pivot, bool left){
 }
 
 void quickSort_helper(vector<int> & vec, int start, int end, int pivot){
-    if (!(end - start)) {
-        return;
-    }
+    if (end - start <= 0) return;
     if ((end - start) == 1) {
         if (vec[end] < vec[start]) {
             vectorSwap(vec, end, start);
@@ -89,8 +78,14 @@ void quickSort_helper(vector<int> & vec, int start, int end, int pivot){
             ++index;
         }
     }
-    quickSort_helper(vec, start, pivot, floor((pivot - start)/2));
-    quickSort_helper(vec, pivot + 1, end, floor((end - pivot)/2));
+    int leftStart = start;
+    int leftEnd = pivot - 1;
+    int leftPivot = floor((leftEnd - leftStart)/2) + leftStart;
+    quickSort_helper(vec, start, leftEnd, leftPivot);
+    int rightStart = pivot + 1;
+    int rightEnd = end;
+    int rightPivot = floor((rightEnd - rightStart)/2) + rightStart;
+    quickSort_helper(vec, rightStart, rightEnd, rightPivot);
 }
 
 void PRQuickSort(vector<int> & vec){

@@ -43,7 +43,7 @@ int main()
     
     cout << "---\nQuick Sort" << endl;
     cout << "Original Vector: "; printVector(vectorTwo);
-    PRBubbleSort(vectorTwo);
+    PRQuickSort(vectorTwo);
     cout << "Sorted Vector: "; printVector(vectorTwo);
     cout << "---" << endl;
     
