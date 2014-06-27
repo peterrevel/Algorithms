@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EEA437E195D4EB300DFF94A /* PRSearchAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EEA437D195D4EB300DFF94A /* PRSearchAlgorithms.cpp */; };
+		3ED06F1D195DCB0F00713EF0 /* PRSearchAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ED06F1B195DCB0F00713EF0 /* PRSearchAlgorithms.cpp */; };
 		52816473195A8F2800FE80C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52816472195A8F2800FE80C8 /* main.cpp */; };
 		52816475195A8F2800FE80C8 /* Algorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52816474195A8F2800FE80C8 /* Algorithms.1 */; };
 		5281647D195A8F7400FE80C8 /* SkylineSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5281647B195A8F7400FE80C8 /* SkylineSolver.cpp */; };
@@ -28,8 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3EEA437C195D4EA300DFF94A /* PRSearchAlgorithms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PRSearchAlgorithms.h; path = ../PRSearchAlgorithms.h; sourceTree = "<group>"; };
-		3EEA437D195D4EB300DFF94A /* PRSearchAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PRSearchAlgorithms.cpp; path = ../PRSearchAlgorithms.cpp; sourceTree = "<group>"; };
+		3ED06F1B195DCB0F00713EF0 /* PRSearchAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PRSearchAlgorithms.cpp; sourceTree = "<group>"; };
+		3ED06F1C195DCB0F00713EF0 /* PRSearchAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRSearchAlgorithms.h; sourceTree = "<group>"; };
 		5281646F195A8F2800FE80C8 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		52816472195A8F2800FE80C8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		52816474195A8F2800FE80C8 /* Algorithms.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Algorithms.1; sourceTree = "<group>"; };
@@ -71,8 +71,8 @@
 			children = (
 				52816474195A8F2800FE80C8 /* Algorithms.1 */,
 				52816472195A8F2800FE80C8 /* main.cpp */,
-				3EEA437C195D4EA300DFF94A /* PRSearchAlgorithms.h */,
-				3EEA437D195D4EB300DFF94A /* PRSearchAlgorithms.cpp */,
+				3ED06F1C195DCB0F00713EF0 /* PRSearchAlgorithms.h */,
+				3ED06F1B195DCB0F00713EF0 /* PRSearchAlgorithms.cpp */,
 				52A38410195BAEA500A37CFE /* SortAlgorithms.h */,
 				52A3840F195BAEA500A37CFE /* SortAlgorithms.cpp */,
 				5281647C195A8F7400FE80C8 /* SkylineSolver.h */,
@@ -133,7 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5281647D195A8F7400FE80C8 /* SkylineSolver.cpp in Sources */,
-				3EEA437E195D4EB300DFF94A /* PRSearchAlgorithms.cpp in Sources */,
+				3ED06F1D195DCB0F00713EF0 /* PRSearchAlgorithms.cpp in Sources */,
 				52816473195A8F2800FE80C8 /* main.cpp in Sources */,
 				52A38411195BAEA500A37CFE /* SortAlgorithms.cpp in Sources */,
 			);
