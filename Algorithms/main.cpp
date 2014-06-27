@@ -10,6 +10,7 @@
 #include "Vector"
 #include "SkylineSolver.h"
 #include "SortAlgorithms.h"
+#include "PRSearchAlgorithms.h"
 
 void printVector(vector<int> vector){
     for (int index = 0; index < vector.size(); ++index) {
@@ -45,6 +46,16 @@ int main()
     PRBubbleSort(vectorTwo);
     cout << "Sorted Vector: "; printVector(vectorTwo);
     cout << "---" << endl;
+    
+    vector<int> vectorThree = {1, 2, 3, 4, 5};
+    
+    cout << "---\nBinary Search" << endl;
+    cout << "Original Vector: "; printVector(vectorThree);
+    (binarySearch(vectorThree, 1)) ? cout << "Contains 1." << endl : cout << "Does not contain 1." << endl;
+    (binarySearch(vectorThree, 3)) ? cout << "Contains 3." << endl : cout << "Does not contain 3." << endl;
+    (binarySearch(vectorThree, 5)) ? cout << "Contains 5." << endl : cout << "Does not contain 5." << endl;
+    (binarySearch(vectorThree, -1)) ? cout << "Contains -1." << endl : cout << "Does not contain -1." << endl;
+    (binarySearch(vectorThree, 11)) ? cout << "Contains 11." << endl : cout << "Does not contain 11." << endl;
     
     return 0;
 }
