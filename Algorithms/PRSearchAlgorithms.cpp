@@ -30,5 +30,7 @@ bool binarySearch_helper(const vector<int> &vec, int start, int end, int key){
 }
 
 bool binarySearch(const vector<int> &vec, int key){
-    return binarySearch_helper(vec, 0, (int)vec.size() - 1, key);
+    int start = 0;
+    int end = (int)vec.size() - 1;
+    return binarySearch_helper(vec, start, end, key);
 }

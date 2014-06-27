@@ -56,6 +56,8 @@ int main()
     (binarySearch(vectorThree, 5)) ? cout << "Contains 5." << endl : cout << "Does not contain 5." << endl;
     (binarySearch(vectorThree, -1)) ? cout << "Contains -1." << endl : cout << "Does not contain -1." << endl;
     (binarySearch(vectorThree, 11)) ? cout << "Contains 11." << endl : cout << "Does not contain 11." << endl;
+    cout << "---" << endl;
+    
     
     return 0;
 }

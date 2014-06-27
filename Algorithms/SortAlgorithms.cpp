@@ -28,6 +28,10 @@ void PRBubbleSort(vector<int> & vec){
     }
 }
 
+vector<int> mergeVectors(const vector<int> &vecA, const vector<int> &vecB){
+    
+}
+
 void mergeSort_helper(vector<int> vec, int stat, int end){
     
 }
