@@ -28,21 +28,6 @@ void PRBubbleSort(vector<int> & vec){
     }
 }
 
-vector<int> mergeVectors(const vector<int> &vecA, const vector<int> &vecB){
-    
-}
-
-void mergeSort_helper(vector<int> vec, int stat, int end){
-    
-}
-
-// O(n*log(n))
-void PRMergeSort(vector<int> & vec){
-    int start = 0;
-    int end = (int)vec.size() - 1;
-    mergeSort_helper(vec, start, end);
-}
-
 void quickSort_swap(vector<int> & vec, int target, int pivot, bool left){
     int offset = left ? -1 : 1;
     if ((pivot - target) == 1 || (pivot - target) == -1) {

@@ -13,6 +13,4 @@ using namespace std;
 
 void PRBubbleSort(vector<int> & vec);
 
-void PRMergeSort(vector<int> & vec);
-
 void PRQuickSort(vector<int> & vec);
