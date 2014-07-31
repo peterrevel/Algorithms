@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3E3F46C2196B36DA009950E1 /* PRProblemSolvers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E3F46C1196B36DA009950E1 /* PRProblemSolvers.cpp */; };
+		3E9D58CC198AEFEE00A28054 /* heaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E9D58CB198AEFEE00A28054 /* heaps.cpp */; };
 		3ED06F1D195DCB0F00713EF0 /* PRSearchAlgorithms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3ED06F1B195DCB0F00713EF0 /* PRSearchAlgorithms.cpp */; };
 		52816473195A8F2800FE80C8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52816472195A8F2800FE80C8 /* main.cpp */; };
 		52816475195A8F2800FE80C8 /* Algorithms.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 52816474195A8F2800FE80C8 /* Algorithms.1 */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		3E3F46C0196B35F1009950E1 /* PRProblemSolvers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRProblemSolvers.h; sourceTree = "<group>"; };
 		3E3F46C1196B36DA009950E1 /* PRProblemSolvers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PRProblemSolvers.cpp; sourceTree = "<group>"; };
+		3E9D58CB198AEFEE00A28054 /* heaps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = heaps.cpp; sourceTree = "<group>"; };
 		3ED06F1B195DCB0F00713EF0 /* PRSearchAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PRSearchAlgorithms.cpp; sourceTree = "<group>"; };
 		3ED06F1C195DCB0F00713EF0 /* PRSearchAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRSearchAlgorithms.h; sourceTree = "<group>"; };
 		5281646F195A8F2800FE80C8 /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 			children = (
 				52816474195A8F2800FE80C8 /* Algorithms.1 */,
 				52816472195A8F2800FE80C8 /* main.cpp */,
+				3E9D58CB198AEFEE00A28054 /* heaps.cpp */,
 				3E3F46C0196B35F1009950E1 /* PRProblemSolvers.h */,
 				3E3F46C1196B36DA009950E1 /* PRProblemSolvers.cpp */,
 				3ED06F1C195DCB0F00713EF0 /* PRSearchAlgorithms.h */,
@@ -134,6 +137,7 @@
 			files = (
 				3ED06F1D195DCB0F00713EF0 /* PRSearchAlgorithms.cpp in Sources */,
 				52816473195A8F2800FE80C8 /* main.cpp in Sources */,
+				3E9D58CC198AEFEE00A28054 /* heaps.cpp in Sources */,
 				3E3F46C2196B36DA009950E1 /* PRProblemSolvers.cpp in Sources */,
 				52A38411195BAEA500A37CFE /* SortAlgorithms.cpp in Sources */,
 			);
